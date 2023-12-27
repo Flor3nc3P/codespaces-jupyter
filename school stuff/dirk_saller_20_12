@@ -1,0 +1,50 @@
+
+#i = int
+#b = bool
+#f = float
+
+
+#i = 4 #^2
+#f = 3 #/3
+#b = 2
+
+#erg1 = i + b
+#print(erg1)
+
+#erg2 = b - f
+#print(erg2)
+
+#erg3 = b * i
+#print(erg3)
+
+#erg4 = b / i
+#print(erg4)
+
+#erg5 = b>i
+#print(erg5)
+
+#erg6 = i<=f
+#print(erg6)
+
+
+#x = 4
+#y = 6
+
+#x = {1,'a',5}
+#y = {1,'%',7}
+#print(type(x), type(y))
+
+#erg7 = x + y
+#print(erg7)
+
+
+# Die Funktion set, bildet meine Menge aus einer Liste. 
+# set streicht doppelte variablen die in der Liste vorkommen und sortiert die Variablen.
+# eine Zahl mit einem . wird als float deklariert (4.0)
+# eine Zahl ohne . wird generell von Python als ein int deklariert (4)
+
+
+l = [1,3,2,'a',3,2,4]
+
+print(set(l))
+#
