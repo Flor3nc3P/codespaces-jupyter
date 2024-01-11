@@ -5,7 +5,7 @@
 
 # Block 2: Funktionen erstellen und aufrufen
 
-"""
+
 print("Block 1")
 # Beispiel anhand einer Altersabfrage fürs Casino
 # Casinos und ihre Glücksspiele sind ab 18, also:
@@ -27,7 +27,7 @@ else:
     print("Warning: Gambling can be addictive")    
 
 print("Casino closed")    
-"""
+
 
 print("Block 2")
 # Funktion mit Rückgabewert erstellen und aufrufen.
