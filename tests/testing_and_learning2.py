@@ -16,6 +16,10 @@ class Car:
         self.x_position = 5
         self.y_position = 5
 
+    def drive(self,x,y):
+        self.x_position += x
+        self.y_position += y
+
 # Referenz auf die Klasse Auto in Variable car1 gespeichert
         
 car1=Car() 
@@ -45,12 +49,12 @@ print(car2)
 car3 = car1
 print(car3)
 
+car1 = Car()
+print(car1.x_position)
+print(car1.y_position)
 
-def drive(self,x,y):
-    self.x_position += x
-    self.y_position += y
+car1.drive(50,35)
 
-
-
-
+print(car1.x_position)
+print(car1.y_position)
 
