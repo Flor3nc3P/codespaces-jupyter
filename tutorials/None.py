@@ -1,3 +1,4 @@
+# None
 # is vergleicht ob es sich um das gleiche Objekt handelt
 # == vergleicht ob es sich um den gleichen Inhalt handelt
 
